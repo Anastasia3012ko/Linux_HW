@@ -1,0 +1,21 @@
+02/01/25
+Modified with text editor
+none                     91.4M         0     91.4M   0% /dev/shm
+   0 date +%D > nastya.txt
+   1 df -h | tail -1 >> nastya.txt 
+   2 history | tail -3 >> nastya.txt 
+cron:x:16:16:cron:/var/spool/cron:/sbin/nologin
+at:x:25:25:at:/var/spool/cron/atjobs:/sbin/nologin
+11
+
+
+command historty:
+   0 date +%D > nastya.txt
+   1 df -h | tail -1 >> nastya.txt 
+   2 history | tail -3 >> nastya.txt 
+   3 cat nastya.txt 
+   4 cat /etc/passwd | grep cron >> nastya.txt 
+   5 grep root "/etc/group" | wc -l >> nastya.txt 
+   6 cat nastya.txt 
+   7 vi nastya.txt 
+   8 history >> nastya.txt 

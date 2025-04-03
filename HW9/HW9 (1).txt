@@ -1,0 +1,9 @@
+#!/bin/bash
+set -e
+
+export USER=Anastasia
+date +%D
+echo "Hello" $USER
+pwd
+ps -ef | grep bioset | grep -v grep | wc -l
+ls -la /etc/passwd | awk '{print $1}'

@@ -1,0 +1,21 @@
+#!/bin/bash
+set -e
+
+export USER=anastasia
+echo $USER
+pwd
+
+   0 nano /tmp/file_nastya.txt
+   1 df -h | head -3 >> /tmp/file_nastya.txt 
+   2 cat /tmp/file_nastya.txt 
+   3 chmod g+rw,o-rwx /tmp/file_nastya.txt 
+   4 ls -la /tmp
+   5 touch myfirstbashscript.sh
+   6 chmod 744 myfirstbashscript.sh 
+   7 nano myfirstbashscript.sh 
+   8 ./myfirstbashscript.sh 
+   9 cp myfirstbashscript.sh /tmp/file_nastya.txt 
+  10 history >> /tmp/file_nastya.txt 
+Filesystem                Size      Used Available Use% Mounted on
+/dev/root                 4.9G      2.3G      2.6G  47% /
+devtmpfs                 91.3M         0     91.3M   0% /dev
